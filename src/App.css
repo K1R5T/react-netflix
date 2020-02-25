@@ -1,38 +1,97 @@
-.App {
+*{
+  background-color: black;
+}
+.wrapper {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 15px;
+  width: 40%;
+  position: absolute;
+  margin-left: 480px;
+  
+}
+button{
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+  height: 50px;
+  width: 260px;
+  background-color: red;
+  margin: 0 auto;
+}
+dropdownbutton {
+  font-size: 50px;
+  position: absolute;
+  left: 710px ;
+  top : 116px;
+  background: rgba(107, 107, 107, 0);
+}
+.down{
+  top: 189px;
+  background: rgba(107, 107, 107, 0);
+}
+.btn{
+  top: 260px;
+  background: rgba(107, 107, 107, 0);
+}
+.new{
+  top: 334px;
+  background: rgba(107, 107, 107, 0);
+}
+.nw-btn{
+  top: 405px;
+  background: rgba(107, 107, 107, 0);
+}
+.new-btn{
+  top: 475px;
+  background: rgba(107, 107, 107, 0);
+}
+
+.FAQ{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.what{
+border-style: solid;
+border-color: black;
+padding-left: 30px;
+margin-bottom: 3px;
+background: rgba(107, 107, 107, 0.616);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.how{
+  border-style: solid;
+  border-color: black;
+  padding-left: 30px;
+  margin-bottom: 3px;
+  background: rgba(107, 107, 107, 0.616);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.where{
+  border-style: solid;
+  border-color: black;
+  padding-left: 30px;
+  margin-bottom: 3px;
+  background: rgba(107, 107, 107, 0.616);
 }
-
-.App-link {
-  color: #61dafb;
+.cancel{
+  border-style: solid;
+  border-color: black;
+  padding-left: 30px;
+  margin-bottom: 3px;
+  background: rgba(107, 107, 107, 0.616);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.watch{
+  border-style: solid;
+  border-color: black;
+  padding-left: 30px;
+  margin-bottom: 3px;
+  background: rgba(107, 107, 107, 0.616);
+}
+.trial{
+  border-style: solid;
+  border-color: black;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  background: rgba(107, 107, 107, 0.616);
+}
+p{
+  background: rgba(107, 107, 107, 0);
 }
