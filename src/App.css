@@ -22,7 +22,7 @@ button{
 dropdownbutton {
   font-size: 50px;
   position: absolute;
-  left: 710px ;
+  left: 530px ;
   top : 116px;
   background: rgba(107, 107, 107, 0);
 }
@@ -49,6 +49,13 @@ dropdownbutton {
 
 .FAQ{
   text-align: center;
+}
+.backgroundclass{
+  border-style: solid;
+  border-color: black;
+  padding-left: 30px;
+  margin-bottom: 3px;
+  background: rgba(107, 107, 107, 0.616);
 }
 .what{
 border-style: solid;

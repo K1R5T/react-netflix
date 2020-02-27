@@ -2,6 +2,15 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
+const Box = (props) => {
+  return(
+    <div className = "backgroundclass">
+        <p>{props.content}</p> 
+        <dropdownbutton className={props.droptype} type="Dropdownbutton">+</dropdownbutton> 
+    </div>
+  )
+}
+
 class App extends React.Component {
   render() {
     return (
@@ -9,29 +18,12 @@ class App extends React.Component {
 
         <h1 className="FAQ">Frequently Asked Questions</h1>
 
-        <div className="what"><p>What is Netflix?</p> 
-        <dropdownbutton className="drop" type="Dropdownbutton">+</dropdownbutton> 
-          </div>
-
-        <div className="how"><p>How much does Netflix cost?</p> 
-        <dropdownbutton className="down" type="Dropdownbutton">+</dropdownbutton>
-        </div>
-
-        <div className="where"><p>Where can I watch?</p> 
-        <dropdownbutton className="btn" type="Dropdownbutton">+</dropdownbutton> 
-        </div>
-
-        <div className="cancel"><p>How do I cancel?</p> 
-        <dropdownbutton className="new" type="Dropdownbutton">+</dropdownbutton> 
-        </div>
-
-        <div className="watch"><p>What can I watch on Netflix?</p> 
-        <dropdownbutton className="nw-btn" type="Dropdownbutton">+</dropdownbutton> 
-        </div>
-
-        <div className="trial"><p>How does the free trial work?</p> 
-        <dropdownbutton className="new-btn" type="Dropdownbutton">+</dropdownbutton> 
-        </div>
+        <Box content = "What is Netflix?" droptype = "drop"/>
+        <Box content = "How much does Netflix cost?" droptype = "down"/>
+        <Box content = "Where can I watch" droptype = "btn"/>
+        <Box content = "How do I cancel? " droptype = "new"/>
+        <Box content = "What can I watch on Netflix?" droptype = "nw-btn"/>
+        <Box content = "How does the free trial work?" droptype = "new-btn"/>
 
       <div>
       <button type="button">TRY 30 DAYS FREE > </button>
